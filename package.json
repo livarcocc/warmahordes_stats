@@ -1,0 +1,19 @@
+{
+  "name": "warmahordes_stats",
+  "version": "0.0.0",
+  "description": "Warmachine and Hordes forum heavy on army statistics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:livarcocc/warmahordes_stats.git"
+  },
+  "author": "Livar Cunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/livarcocc/warmahordes_stats/issues"
+  },
+  "homepage": "https://github.com/livarcocc/warmahordes_stats"
+}
