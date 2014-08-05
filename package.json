@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/livarcocc/warmahordes_stats/issues"
   },
-  "homepage": "https://github.com/livarcocc/warmahordes_stats"
+  "homepage": "https://github.com/livarcocc/warmahordes_stats",
+  "dependencies": {
+    "express": "^4.7.4",
+    "jade": "^1.5.0"
+  }
 }
