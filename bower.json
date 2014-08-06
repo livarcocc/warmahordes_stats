@@ -1,0 +1,24 @@
+{
+  "name": "warmahordes_stats",
+  "version": "0.0.0",
+  "homepage": "https://github.com/livarcocc/warmahordes_stats",
+  "authors": [
+    "Livar Cunha <livar@live.com>"
+  ],
+  "description": "\"Warmachine and Hordes forum heavy on army list statistics\"",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "toastr": "~2.0.3",
+    "angular": "~1.2.21",
+    "angular-resource": "~1.2.21",
+    "angular-route": "~1.2.21"
+  }
+}
