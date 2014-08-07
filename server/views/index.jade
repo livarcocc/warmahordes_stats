@@ -1,4 +1,15 @@
 extends ../includes/layout
 
 block main-content
-  section(ng-view)
+  .navbar.navbar-inverse.navbar-fixed-top
+    .container
+      .navbar-header
+        a.navbar-brand(href="/") Warmachine and Hordes Statistics Forum
+      .navbar-collapse.collapse
+        ul.nav.navbar-nav
+          li
+            a(href="/") Home
+  section.content(ng-view)
+
+  footer.container.text-center
+    p Warmachine and Hordes Statistics Forum

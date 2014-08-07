@@ -1,2 +1,19 @@
-<h1>Home sweet home</h1>
-<h2>{{ hello }}</h2>
+<section class="container">
+    <section class="jumbotron">
+        <h2>
+            Warmachine and Hordes Statistics Forum
+        </h2>
+        <p>
+            A forum for discussing Warmachine and Hordes lists that keeps track of the lists of models.
+        </p>
+    </section>
+
+    <section class="row">
+        <section class="col-md-6">
+            <div ng-include="'/views/threads.html'"></div>
+        </section>
+        <section class="col-md-6">
+            <div ng-include="'/views/army-lists.html'"></div>
+        </section>
+    </section>
+</section>

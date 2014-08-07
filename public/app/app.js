@@ -5,7 +5,3 @@ angular.module('warmahordes_stats').config(function ($routeProvider, $locationPr
   $routeProvider
     .when('/', { templateUrl: '/views/home.html', controller: 'homeCtrl'});
 });
-
-angular.module('warmahordes_stats').controller('homeCtrl', function($scope) {
-  $scope.hello = "Hello Angular"
-});
